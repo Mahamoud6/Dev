@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size:18px;
+    line-height:18px ;
+    font-family:"Alice", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight:900
+}
+
+a{
+    color:blue
+}
+
+h1{ 
+    color:black;
+    font-size:18px;
+    text-align:center;
+}
+
+main{
+    width:60%;
+    float:left;
+    background-color: grey;
+}
+
+aside{
+    width: 30%;
+    border:1px solid;
+    float:right;
+    margin:20px;
+    padding:10px;
+    height:200px;
+    box-sizing:border-box;
+
+}
+footer{
+    clear:both;
+}
+
+    
+
+.menu a{
+    color:blue;
+    text-decoration: none;
+}
+
+h1 {
+    clear:both;
+
+}
+p{
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+@font-face{
+    font-family: "Alice";
+    src: url("fonts/Alice-Regular.ttf")
+        format("truetype");
+}
